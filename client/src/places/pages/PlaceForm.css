@@ -1,0 +1,22 @@
+.place-form {
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  top: 1rem;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background-image: linear-gradient(
+      45deg,
+      transparent 20%,
+      wheat 25%,
+      transparent 25%
+    ),
+    linear-gradient(-45deg, transparent 20%, wheat 25%, transparent 25%),
+    linear-gradient(-45deg, transparent 75%, wheat 80%, transparent 0),
+    radial-gradient(wheat 2px, transparent 0);
+  background-size: 30px 30px, 30px 30px;
+  background-color: white;
+}

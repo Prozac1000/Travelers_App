@@ -1,0 +1,16 @@
+.about {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0.2rem;
+  width: 95%;
+  height: 60%;
+  max-width: 60rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #292929;
+  background: #fff;
+  margin-top: 80px;
+  border-radius: 1%;
+  padding: 1rem;
+}
