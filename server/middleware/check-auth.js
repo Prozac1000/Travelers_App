@@ -8,7 +8,6 @@ module.exports = (req, res, next) => {
 
   try {
     const authHeader = req.headers.authorization;
-    console.log(req);
     const token = authHeader.split(" ")[1];
     if (!token) {
       throw new Error("Authentication failed!");
